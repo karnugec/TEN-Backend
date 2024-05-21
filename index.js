@@ -48,8 +48,9 @@ app.use(express.json())
 app.use(cookieParser());
 
 app.use(cors({
-    origin: "http://localhost:5173", 
+    // origin: "http://localhost:5173", 
     // origin: "https://ten-bl2h.vercel.app",
+    origin : "https://www.entrepreneurshipnetwork.net",
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Authorization'],
     credentials: true
